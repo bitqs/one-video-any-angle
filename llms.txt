@@ -1,0 +1,19 @@
+# video-to-motion-sop
+
+> A workflow (SOP) for turning one performance video into multi-angle AI video: the performer's motion is recovered frame by frame as 3D (SMPL-X), rendered as a "clay" reference from any camera, then re-skinned by Seedance 2.5 in EDIT mode (motion and camera inherited frame by frame). Unified motion, any angle, any world — unlike tools that repaint the original footage from its single camera. Author: 爽哥说. License: CC BY 4.0. Documents are in Chinese.
+
+## For agents
+- [AGENTS.md](AGENTS.md): the execution handbook — invariants, questions to ask the human, data contracts, per-step parameters and thresholds, Seedance request body, sync-mapping algorithm, failure table, cost estimator.
+
+## Docs
+- [01 素材与节拍](docs/01-素材与节拍.md): source selection, cuts, beats, accent curves
+- [02 动作提取与身份锁定](docs/02-动作提取与身份锁定.md): 2D pose, tracking, identity lock
+- [03 3D动作复原](docs/03-3D动作复原.md): GVHMR, per-frame SMPL-X whole-body fitting, foot contact
+- [04 动作优化与合并](docs/04-动作优化与合并.md): motion master, gap filling, local motion edits (IK)
+- [05 Clay动作参考与机位](docs/05-Clay动作参考与机位.md): clay figure, camera keys, vertical safe-band fitting
+- [06 多角度AI视频生成](docs/06-多角度AI视频生成.md): Seedance edit mode, references, prompt structure, pricing
+- [07 对齐后期交付](docs/07-对齐后期交付.md): sync mapping, grading, upscaling, FX, packaging, loudness
+- [08 验收标准](docs/08-验收标准.md) · [09 成本与工时](docs/09-成本与工时.md) · [10 常见坑](docs/10-常见坑.md) · [11 授权与合规](docs/11-授权与合规.md)
+
+## Templates
+- [templates/prompt_edit_mode.md](templates/prompt_edit_mode.md) · [templates/shot.yaml](templates/shot.yaml) · [templates/开工清单.md](templates/开工清单.md)
