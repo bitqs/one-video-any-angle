@@ -36,6 +36,9 @@
 | 多风格 | 每种风格重画一遍原片 | **同一段动作 × N 个角度 × N 个世界**，按拍快切 |
 
 <div align="center">
+<img src="assets/one_motion_five_worlds.jpg" width="720" alt="同一时刻：五个机位 × 五个世界">
+<br><sub><b>同一份动作的同一时刻</b>：低机位仰拍 · 高位俯拍 · 背后 · 环绕 · 高位斜侧 × 赛博朋克 · 水墨 · 黑白胶片 · 云海 · 油画</sub>
+<br><br>
 <img src="assets/source_clay_ai.jpg" width="540" alt="原片 / clay / AI">
 <br><sub>同一时刻：1995 原片参考 · clay 动作参考 · AI 成片</sub>
 <br><br>
