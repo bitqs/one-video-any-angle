@@ -1,0 +1,18 @@
+# 镜头卡：一个镜头一张。时间都是原演出时间（秒）。
+id: S07
+perf: [86.867, 93.233]          # 镜头起止；clay 会自动首尾各多渲 0.4 秒
+design: 穿越机 360° 螺旋，最强重音那一帧正好绕到他正面
+accents:                        # 重音（演出时间, 强度 0-1, 发生什么）
+  - [88.43, 0.63, 镜头下潜]
+  - [88.97, 1.00, 绕到正面；光束一亮，烟尘悬停]
+  - [91.90, 0.82, 光又亮一下]
+camera:                         # 关键帧：u 0-1，az 度，dist 米，h 米，f 毫米，aim 米，lat 度
+  - {u: 0.0,  az: 160, dist: 2.8, h: 2.6, f: 12, aim: 1.05, lat: 0}
+  - {u: 0.33, az: 71,  dist: 2.1, h: 1.0, f: 12, aim: 1.05, lat: 0}
+  - {u: 0.57, az: -20, dist: 2.3, h: 1.4, f: 12, aim: 1.05, lat: 0}
+  - {u: 1.0,  az: -200, dist: 2.8, h: 2.4, f: 12, aim: 1.05, lat: 0}
+vertical_fit: {dist_scale: auto, aim_offset: auto}   # 竖屏安全区自动拟合
+reference_2: {file: orig_face.mp4, fallback: [blur, shadow]}
+resolution: 720p                # 前 30 秒可用 1080p
+env: 纯黑舞台，单一头顶硬光（全片同一段描述）
+notes: ""
