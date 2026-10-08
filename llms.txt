@@ -1,6 +1,6 @@
 # one-video-any-angle
 
-> A workflow (SOP) for turning one performance video into multi-angle AI video: the performer's motion is recovered frame by frame as 3D (SMPL-X), rendered as a "clay" reference from any camera, then re-skinned by Seedance 2.5 in EDIT mode (motion and camera inherited frame by frame). Unified motion, any angle, any world — unlike tools that repaint the original footage from its single camera. Author: 爽哥说. License: CC BY 4.0. Documents are in Chinese.
+> A workflow (SOP) for turning one performance video into multi-angle AI video: the performer's motion is recovered frame by frame as 3D (SMPL-X), rendered as a "clay" reference from any camera, then re-skinned by Seedance 2.5 in EDIT mode (motion and camera inherited frame by frame). Unified motion, any angle, any world — unlike tools that repaint the original footage from its single camera. Author: 爽哥说. License: CC BY-NC 4.0 (attribution required; no commercial use of these documents without the author's permission). Documents are in Chinese.
 
 ## For agents
 - [AGENTS.md](AGENTS.md): the execution handbook — invariants, questions to ask the human, data contracts, per-step parameters and thresholds, Seedance request body, sync-mapping algorithm, failure table, cost estimator.

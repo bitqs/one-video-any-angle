@@ -7,7 +7,7 @@
 **统一动作，任意角度，任意世界。不是把原片画面换个皮。**
 
 [![Stars](https://img.shields.io/github/stars/bitqs/one-video-any-angle?style=social)](https://github.com/bitqs/one-video-any-angle/stargazers)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](LICENSE)
 [![AI agent ready](https://img.shields.io/badge/AI%20agent-ready-FF4D12)](AGENTS.md)
 [![Seedance 2.5](https://img.shields.io/badge/Seedance-2.5%20edit%20mode-1f1f1f)](docs/06-多角度AI视频生成.md)
 [![SMPL-X](https://img.shields.io/badge/3D-SMPL--X-555)](docs/03-3D动作复原.md)
@@ -120,7 +120,7 @@ flowchart LR
 
 **为什么不直接让 AI「参考」原视频生成？** 参考模式只会模仿，动作走样、卡不上拍。必须用编辑模式把 clay 当底片逐帧继承。
 
-**可以商用吗？** 本仓库文档按 CC BY 4.0 开放。流程里用到的模型和你的素材各有许可，商用前看 [11](docs/11-授权与合规.md)。
+**可以商用吗？** 本仓库文档按 CC BY-NC 4.0 开放：署名后可以转载、改编，但不能拿去卖、做付费课程或其他商业用途，商用请先联系作者「爽哥说」授权。照着流程做你自己的视频不受这条限制；流程里用到的模型和你的素材各有许可，商用前看 [11](docs/11-授权与合规.md)。
 
 ## 🗺️ Roadmap
 
@@ -147,7 +147,7 @@ flowchart LR
 
 ## 引用 · 许可
 
-转载、改编请署名「爽哥说」并附本仓库链接（[CC BY 4.0](LICENSE)）。
+转载、改编请署名「爽哥说」并附本仓库链接，不得用于商业用途（[CC BY-NC 4.0](LICENSE)）。商用授权请联系作者。
 
 ```bibtex
 @misc{shuanggeshuo2026videotomotion,
