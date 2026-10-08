@@ -6,7 +6,7 @@
 
 **统一动作，任意角度，任意世界。不是把原片画面换个皮。**
 
-[![Stars](https://img.shields.io/github/stars/bitqs/video-to-motion-sop?style=social)](https://github.com/bitqs/video-to-motion-sop/stargazers)
+[![Stars](https://img.shields.io/github/stars/bitqs/one-video-any-angle?style=social)](https://github.com/bitqs/one-video-any-angle/stargazers)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![AI agent ready](https://img.shields.io/badge/AI%20agent-ready-FF4D12)](AGENTS.md)
 [![Seedance 2.5](https://img.shields.io/badge/Seedance-2.5%20edit%20mode-1f1f1f)](docs/06-多角度AI视频生成.md)
@@ -48,7 +48,7 @@
 这个仓库是写给 agent 读的。把下面这段话丢给 Claude Code / Codex / Cursor：
 
 ```text
-读 https://github.com/bitqs/video-to-motion-sop 的 AGENTS.md，
+读 https://github.com/bitqs/one-video-any-angle 的 AGENTS.md，
 按里面的流程把 <你的视频> 做成 9:16 的多角度 AI 视频。
 开工前先问我清单里的问题；先出 10 秒样片给我看，花钱前报价。
 ```
@@ -140,7 +140,7 @@ flowchart LR
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=bitqs/video-to-motion-sop&type=Date)](https://star-history.com/#bitqs/video-to-motion-sop&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=bitqs/one-video-any-angle&type=Date)](https://star-history.com/#bitqs/one-video-any-angle&Date)
 
 ## 引用 · 许可
 
@@ -151,6 +151,6 @@ flowchart LR
   title  = {一个原片 · 任意机位：原视频动作复刻到多角度 AI 视频的工作流},
   author = {爽哥说},
   year   = {2026},
-  url    = {https://github.com/bitqs/video-to-motion-sop}
+  url    = {https://github.com/bitqs/one-video-any-angle}
 }
 ```
